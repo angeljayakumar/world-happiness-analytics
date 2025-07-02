@@ -1,0 +1,23 @@
+# VSCode settings folder
+.vscode/
+
+# Python cache files (if using Python)
+__pycache__/
+*.py[cod]
+
+# Environment folders (virtualenv, conda, etc.)
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore node_modules if you have any Node.js code
+node_modules/
+
+# Environment variables files
+.env
