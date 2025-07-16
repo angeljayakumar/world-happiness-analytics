@@ -1,4 +1,4 @@
-# world-happiness-health-analytics
+# world-happiness-analytics
 
 This project analyzes the World Happiness Report data to understand how health and family contribute to national happiness. It includes data cleaning, visualization in Tableau, a predictive model, and an interactive Streamlit app.
 
@@ -37,5 +37,9 @@ This cleaned and structured dataset is ready for further analysis and modeling.
 - **Scikit-learn** for preprocessing
 - **Matplotlib**, **Seaborn**, **Plotly** for visualization
 - **Jupyter Notebook** for interactive analysis
+
+## 📊 Tableau Dashboard
+
+View the interactive dashboard: [Click here](https://public.tableau.com/app/profile/angel.jayakumar/viz/Book2_17521895743850/Whatmakenationshappy)
 
 ## 📁 Directory Structure
