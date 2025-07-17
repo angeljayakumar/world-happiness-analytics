@@ -1,8 +1,8 @@
-# world-happiness-analytics
-
 This project analyzes the World Happiness Report data to understand how health and family contribute to national happiness. It includes data cleaning, visualization in Tableau, a predictive model, and an interactive Streamlit app.
 
-# 🌍 World Happiness and Health Analytics (2015–2024)
+![Happiness Word Cloud](data/images/happiness_wordcloud.png)
+
+# 🌍 World Happiness Analytics (2015–2024)
 
 This project explores the relationship between happiness and health across countries using data from the **World Happiness Reports** for the years **2015 to 2024**. The analysis aims to uncover how various factors — particularly health and well-being — influence happiness globally.
 
@@ -41,5 +41,9 @@ This cleaned and structured dataset is ready for further analysis and modeling.
 ## 📊 Tableau Dashboard
 
 View the interactive dashboard: [Click here](https://public.tableau.com/app/profile/angel.jayakumar/viz/Book2_17521895743850/Whatmakenationshappy)
+
+## Word Cloud Visualization
+
+The word cloud image displayed above was generated using the Python `WordCloud` library. It visually represents countries sized by their happiness rank, where countries with higher happiness appear larger. This visualization helps to quickly identify and compare happiness levels across different countries.
 
 ## 📁 Directory Structure
