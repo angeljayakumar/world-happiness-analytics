@@ -2,11 +2,11 @@ This project analyzes the World Happiness Report data to understand how health a
 
 ![Happiness Word Cloud](data/images/happiness_wordcloud.png)
 
-# 🌍 World Happiness Analytics (2015–2024)
+### World Happiness Analytics (2015–2024)
 
 This project explores the relationship between happiness and health across countries using data from the **World Happiness Reports** for the years **2015 to 2024**. The analysis aims to uncover how various factors — particularly health and well-being — influence happiness globally.
 
-# Dataset and Preprocessing Overview
+#### Dataset and Preprocessing Overview
 
 The dataset covers World Happiness data from 2015 to 2024, including all original columns.
 
@@ -24,26 +24,35 @@ Recalculated and created “Happiness Rank (Cleaned Data)” since original rank
 
 This cleaned and structured dataset is ready for further analysis and modeling.
 
-## 🧪 Key Questions Addressed
+### Key Questions Addressed
 
 1. How much does health (life expectancy) contribute to happiness compared to income and freedom?
 2. Which countries or regions show the strongest health-related effects on well-being?
 3. Can improvements in health predict future happiness?
 4. How does social support compare to health and income in influencing happiness?
 
-## 🛠️ Tools Used
+### Tools Used
 
 - **Python**, **Pandas**, **NumPy**
 - **Scikit-learn** for preprocessing
 - **Matplotlib**, **Seaborn**, **Plotly** for visualization
 - **Jupyter Notebook** for interactive analysis
 
-## 📊 Tableau Dashboard
+### Tableau Dashboard
 
 View the interactive dashboard: [Click here](https://public.tableau.com/app/profile/angel.jayakumar/viz/Book2_17521895743850/Whatmakenationshappy)
 
-## Word Cloud Visualization
+### Word Cloud Visualization
 
 The word cloud image displayed above was generated using the Python `WordCloud` library. It visually represents countries sized by their happiness rank, where countries with higher happiness appear larger. This visualization helps to quickly identify and compare happiness levels across different countries.
 
-## 📁 Directory Structure
+### Directory Structure
+
+### Data Source and Credits
+
+This project uses data from two Kaggle datasets:
+
+- [World Happiness Report 2015–2019](https://www.kaggle.com/datasets/unsdsn/world-happiness?select=2019.csv)
+- [World Happiness Report 2020–2024](https://www.kaggle.com/datasets/samithsachidanandan/world-happiness-report-2020-2024)
+
+The original data is based on the **Gallup World Poll**, which surveys over 160 countries and includes key well-being indicators such as happiness score, GDP per capita, social support, healthy life expectancy, and more. All 10 CSV files were cleaned and merged to create a unified dataset for analysis covering the years 2015 to 2024.
