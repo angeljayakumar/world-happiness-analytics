@@ -8,8 +8,6 @@ This project explores the relationship between happiness and health across count
 
 ## Notebooks
 
-## Notebooks
-
 <details>
   <summary><strong>01_etl_pipeline</strong></summary>
 
@@ -33,10 +31,35 @@ This notebook tests specific hypotheses to determine which factors significantly
 
 ### Key Questions Addressed
 
-1. How much does health (life expectancy) contribute to happiness compared to income and freedom?
-2. Which countries or regions show the strongest health-related effects on well-being?
-3. Can improvements in health predict future happiness?
-4. How does social support compare to health and income in influencing happiness?
+## Key Findings
+
+<details>
+<summary>1. How does health (life expectancy) relate to happiness?</summary>
+
+There is a strong positive correlation between healthy life expectancy and happiness scores across countries from 2015 to 2024. Countries with higher life expectancy generally report higher happiness levels. European nations tend to show both high life expectancy and happiness, while many African countries fall into the lower ranges. This suggests that improving health outcomes could be an effective way to increase national well-being.
+
+</details>
+
+<details>
+<summary>2. How has happiness changed over time (2015–2024)?</summary>
+
+Nordic countries like Finland, Denmark, Norway, and Sweden consistently rank among the happiest globally with stable scores. Their resilience reflects strong social systems and quality of life, even during crises such as the COVID-19 pandemic. Conversely, countries like Afghanistan and many Sub-Saharan African nations remain at the lowest happiness levels. India’s happiness scores fluctuate but generally stay in the lower-middle range, indicating ongoing challenges.
+
+</details>
+
+<details>
+<summary>3. Which factors most strongly influence happiness?</summary>
+
+Family and social connections show the strongest positive correlation with happiness at 0.82, highlighting their importance. Economic prosperity (GDP per capita) closely follows with a correlation of 0.81. Healthy life expectancy is also a major contributor with a correlation of 0.79. Perceptions of corruption negatively impact happiness, while generosity has only a weak positive correlation.
+
+</details>
+
+<details>
+<summary>4. Do certain factors lead to statistically significant differences in happiness?</summary>
+
+Statistical tests reveal that family support, life expectancy, and continent significantly affect happiness levels. These factors show clear differences in average happiness scores between groups. Generosity, despite being positively viewed, does not have a significant statistical impact on happiness. This underscores the key role of social and health factors in well-being.
+
+</details>
 
 ### Tools Used
 
