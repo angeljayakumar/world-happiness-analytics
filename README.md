@@ -6,26 +6,24 @@ This project analyzes the World Happiness Report data to understand how health a
 
 This project explores the relationship between happiness and health across countries using data from the **World Happiness Reports** for the years **2015 to 2024**. The analysis aims to uncover how various factors — particularly health and well-being — influence happiness globally.
 
-#### Dataset and Preprocessing Overview
-
 ## Notebooks
 
 <details>
-  <summary><strong><a href="./notebooks/01_etl_pipeline.ipynb">01_etl_pipeline</a></strong></summary>
+  <summary><strong><a href="./jupyter_notebooks/01_etl_pipeline.ipynb">01_etl_pipeline</a></strong></summary>
 
 This notebook handles the extraction, transformation, and loading (ETL) of happiness report data from 2015 to 2024. It combines and cleans data across 10 years, ensuring consistency and completeness. A final dataset of 131 countries with complete records is created by dropping countries with missing data. Additional feature engineering is performed to prepare the data for further analysis.
 
 </details>
 
 <details>
-  <summary><strong><a href="./notebooks/01_descriptive_analysis.ipynb">01_descriptive_analysis</a></strong></summary>
+  <summary><strong><a href="./jupyter_notebooks/02_descriptive_analysis.ipynb">02_descriptive_analysis</a></strong></summary>
 
 This notebook provides an overview of global happiness trends using descriptive analysis techniques. It includes key visualizations such as scatter plots, area charts, heatmaps, and bar charts. These explore relationships between health, happiness, and other contributing factors. The analysis also highlights differences in happiness patterns across continents and over time.
 
 </details>
 
 <details>
-  <summary><strong><a href="./notebooks/03_hypothesis_testing.ipynb">03_hypothesis_testing</a></strong></summary>
+  <summary><strong><a href="./jupyter_notebooks/03_hypothesis_testing.ipynb">03_hypothesis_testing</a></strong></summary>
 
 This notebook tests specific hypotheses to determine which factors significantly affect happiness. Statistical tests include the Kruskal-Wallis and Mann-Whitney U tests. Variables like family support, life expectancy, generosity, and continent are analyzed. The results provide evidence-based insights into which factors show significant differences in happiness levels.
 
