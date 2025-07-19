@@ -31,8 +31,6 @@ This notebook tests specific hypotheses to determine which factors significantly
 
 ### Key Questions Addressed
 
-## Key Findings
-
 <details>
 <summary>1. How does health (life expectancy) relate to happiness?</summary>
 
@@ -75,8 +73,6 @@ View the interactive dashboard: [Click here](https://public.tableau.com/app/prof
 ### Word Cloud Visualization
 
 The word cloud image displayed above was generated using the Python `WordCloud` library. It visually represents countries sized by their happiness rank, where countries with higher happiness appear larger. This visualization helps to quickly identify and compare happiness levels across different countries.
-
-### Directory Structure
 
 ### Data Source and Credits
 
