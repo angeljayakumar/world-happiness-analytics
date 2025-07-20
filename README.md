@@ -132,15 +132,12 @@ India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with 
 - **Joblib** for saving/loading models
 
 <h3 style="color:#C71585;">Analysis Used</h3>
-- Exploratory Data Analysis (EDA) with visualizations
 
-- Feature Engineering including lag features to capture temporal trends
-
-- Predictive Modeling using regression and ensemble methods
-
-- Model Evaluation using metrics like R² Score and Mean Squared Error (MSE)
-
-- Hypothesis testing decision support guided by SharpWalk
+- **Exploratory Data Analysis (EDA)** with visualizations
+- **Feature Engineering** including lag features to capture temporal trends
+- **Predictive Modeling** using regression and ensemble methods
+- **Model Evaluation** using metrics like R² Score and Mean Squared Error (MSE)
+- **Hypothesis Testing** decision support guided by SharpWalk
 
 This combination of tools and analysis techniques supports thorough understanding and forecasting of country happiness scores using data from 2015 to 2024.
 
