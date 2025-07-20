@@ -1,10 +1,8 @@
-This project analyzes the World Happiness Report data to understand how health and family contribute to national happiness. It includes data cleaning, visualization in Tableau, a predictive model, and an interactive Streamlit app.
-
-![Happiness Word Cloud](data/images/happiness_wordcloud.png)
-
 ### World Happiness Analytics (2015–2024)
 
-This project explores the relationship between happiness and health across countries using data from the **World Happiness Reports** for the years **2015 to 2024**. The analysis aims to uncover how various factors — particularly health and well-being — influence happiness globally.
+This project explores World Happiness Report data from 2015 to 2024 to understand how health and family support influence national happiness. It covers data cleaning, visual analysis in Tableau, and statistical testing. A predictive model is also built to explore future trends. The project includes an interactive Streamlit app to make insights more accessible and engaging.
+
+![Happiness Word Cloud](data/images/happiness_wordcloud.png)
 
 ## Notebooks
 
@@ -55,7 +53,7 @@ Family and social connections show the strongest positive correlation with happi
 <details>
 <summary>4. Do certain factors lead to statistically significant differences in happiness?</summary>
 
-Statistical tests reveal that family support, life expectancy, and continent significantly affect happiness levels. These factors show clear differences in average happiness scores between groups. Generosity, despite being positively viewed, does not have a significant statistical impact on happiness. This underscores the key role of social and health factors in well-being.
+Statistical tests reveal that family support and life expectancy affect happiness levels. These factors show clear differences in average happiness scores between groups. Generosity, despite being positively viewed, does not have a significant statistical impact on happiness. This underscores the key role of social and health factors in well-being.
 
 </details>
 
