@@ -58,7 +58,15 @@ This notebook explores why India ranks lower in happiness compared to top countr
 
 </details>
 
-Each notebook was developed in its own **feature branch**, enabling modular, focused development and easier collaboration. This approach ensures clear separation of tasks and smooth integration of different analysis components.
+### Branches
+
+This project is developed using feature branches for modular and organized development. The main branches are:
+
+- `main` — The main production branch containing the stable, integrated code.
+- `happyblazer-etl-pipeline` — Handles data extraction, transformation, and loading (ETL) of the happiness report data.
+- `happyblazer-descriptive-analysis` — Contains notebooks and scripts for descriptive and exploratory data analysis.
+- `happyblazer-hypothesis-testing` — Dedicated to statistical testing and hypothesis validation.
+- `happyblazer-diagnostic-analysis` — Focuses on diagnostic analysis, including case studies like India's happiness trends.
 
 <h3 style="color:#C71585;">Key Questions Addressed</h3>
 
