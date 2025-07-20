@@ -49,6 +49,13 @@ This notebook tests specific hypotheses to determine which factors significantly
 
 </details>
 
+<details>
+  <summary><strong>04_diagnostic_analysis</strong></summary>
+
+This notebook explores why India ranks lower in happiness compared to top countries. It shows that India scores less in income, health, and social support—key factors linked to happiness. It also tracks how India’s happiness score dropped from 2015 to 2020 and only partly recovered by 2024. These insights help identify what India needs to improve for better well-being.
+
+</details>
+
 ### Key Questions Addressed
 
 <details>
