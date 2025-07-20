@@ -26,7 +26,9 @@ This project explores World Happiness Report data from 2015 to 2024 to understan
 
 </details>
 
-### Notebooks
+### Project Structure and Development Overview
+
+This project is organized into **4 Jupyter notebooks**, each addressing a distinct phase of happiness analysis:
 
 <details>
   <summary><strong>01_etl_pipeline</strong></summary>
@@ -55,6 +57,8 @@ This notebook tests specific hypotheses to determine which factors significantly
 This notebook explores why India ranks lower in happiness compared to top countries. It shows that India scores less in income, health, and social support—key factors linked to happiness. It also tracks how India’s happiness score dropped from 2015 to 2020 and only partly recovered by 2024. These insights help identify what India needs to improve for better well-being.
 
 </details>
+
+Each notebook was developed in its own **feature branch**, enabling modular, focused development and easier collaboration. This approach ensures clear separation of tasks and smooth integration of different analysis components.
 
 ### Key Questions Addressed
 
@@ -99,17 +103,6 @@ India ranks lower in happiness because it scores significantly less in income, h
 India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with the sharpest drop during the COVID-19 pandemic. By 2024, it recovered slightly to about 4.2 but remains below pre-2018 levels. This trend points to lasting effects of socioeconomic challenges that still impact overall happiness.
 
 </details>
-
-### Project Structure and Development Overview
-
-This project is organized into **4 Jupyter notebooks**, each addressing a distinct phase of the India happiness analysis:
-
-- **01_etl_pipeline:** Handles data extraction, cleaning, and feature engineering to prepare a comprehensive dataset from 2015 to 2024.
-- **02_descriptive_analysis:** Performs exploratory data analysis with visualizations to reveal global happiness trends and factor relationships.
-- **03_hypothesis_testing:** Applies statistical tests to identify significant factors influencing happiness across different regions and groups.
-- **04_diagnostic_analysis:** Focuses on diagnosing India’s lower happiness scores by benchmarking and trend analysis over time.
-
-Each notebook was developed in its own **feature branch**, enabling modular, focused development and easier collaboration. This approach ensures clear separation of tasks and smooth integration of different analysis components.
 
 ### Tools Used
 
