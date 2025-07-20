@@ -28,7 +28,7 @@ This project explores World Happiness Report data from 2015 to 2024 to understan
 
 <h3 style="color:#C71585;">Project Structure and Development Overview</h3>
 
-This project is organized into **4 Jupyter notebooks**, each addressing a distinct phase of happiness analysis:
+This project is organized into **5 Jupyter notebooks**, each addressing a distinct phase of happiness analysis:
 
 <details>
   <summary><strong>01_etl_pipeline</strong></summary>
