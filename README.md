@@ -6,6 +6,9 @@ This project explores World Happiness Report data from 2015 to 2024 to understan
 
 ### Column Descriptions
 
+<details>
+  <summary>Click to view Column descriptions</summary>
+
 | **Column Name**                 | **Explanation**                                                                |
 | ------------------------------- | ------------------------------------------------------------------------------ |
 | `Country`                       | Name of the country                                                            |
