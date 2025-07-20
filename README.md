@@ -100,6 +100,17 @@ India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with 
 
 </details>
 
+### Project Structure and Development Overview
+
+This project is organized into **4 Jupyter notebooks**, each addressing a distinct phase of the India happiness analysis:
+
+- **01_etl_pipeline:** Handles data extraction, cleaning, and feature engineering to prepare a comprehensive dataset from 2015 to 2024.
+- **02_descriptive_analysis:** Performs exploratory data analysis with visualizations to reveal global happiness trends and factor relationships.
+- **03_hypothesis_testing:** Applies statistical tests to identify significant factors influencing happiness across different regions and groups.
+- **04_diagnostic_analysis:** Focuses on diagnosing India’s lower happiness scores by benchmarking and trend analysis over time.
+
+Each notebook was developed in its own **feature branch**, enabling modular, focused development and easier collaboration. This approach ensures clear separation of tasks and smooth integration of different analysis components.
+
 ### Tools Used
 
 - **Python**, **Pandas**, **NumPy**
