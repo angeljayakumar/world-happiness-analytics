@@ -86,6 +86,20 @@ Statistical tests reveal that family support and life expectancy affect happines
 
 </details>
 
+<details>
+<summary>5. Why is India less happy than top-ranked countries?</summary>
+
+India ranks lower in happiness because it scores significantly less in income, healthy life expectancy, and social support compared to top countries like Finland and Denmark. These three factors are closely linked to happiness. The top-performing countries maintain a strong balance across all of them, highlighting where India can focus to improve national well-being.
+
+</details>
+
+<details>
+<summary>6. How has India’s happiness changed since 2015?</summary>
+
+India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with the sharpest drop during the COVID-19 pandemic. By 2024, it recovered slightly to about 4.2 but remains below pre-2018 levels. This trend points to lasting effects of socioeconomic challenges that still impact overall happiness.
+
+</details>
+
 ### Tools Used
 
 - **Python**, **Pandas**, **NumPy**
