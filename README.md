@@ -58,6 +58,13 @@ This notebook explores why India ranks lower in happiness compared to top countr
 
 </details>
 
+<details>
+  <summary><strong>05_predictive_analysis</strong></summary>
+
+This notebook builds a model to predict future happiness scores of countries using data from 2015 to 2024. It includes data cleaning, creating lag features to capture past trends, and training models like Linear Regression and Random Forest. The notebook evaluates model performance and saves the Linear Regression model for future use. This helps forecast happiness trends and supports informed decision-making.
+
+</details>
+
 ### Branches
 
 This project is developed using feature branches for modular and organized development. The main branches are:
@@ -67,6 +74,7 @@ This project is developed using feature branches for modular and organized devel
 - `happyblazer-descriptive-analysis` — Contains notebooks and scripts for descriptive and exploratory data analysis.
 - `happyblazer-hypothesis-testing` — Dedicated to statistical testing and hypothesis validation.
 - `happyblazer-diagnostic-analysis` — Focuses on diagnostic analysis, including case studies like India's happiness trends.
+- `happyblazer-predictive--analysis` — Contains the predictive modeling work, including data preprocessing, lag feature creation, model training, evaluation, and saving the Linear Regression model.
 
 <h3 style="color:#C71585;">Key Questions Addressed</h3>
 
