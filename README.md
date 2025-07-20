@@ -1,10 +1,10 @@
-## World Happiness Analytics (2015–2024)
+<h1 style="color:#C71585;">World Happiness Analytics (2015–2024)</h1>
 
 This project explores World Happiness Report data from 2015 to 2024 to understand how health and family support influence national happiness. It covers data cleaning, visual analysis in Tableau, and statistical testing. A predictive model is also built to explore future trends. The project includes an interactive Streamlit app to make insights more accessible and engaging.
 
 ![Happiness Word Cloud](data/images/happiness_wordcloud.png)
 
-### Column Descriptions
+<h3 style="color:#C71585;">Column Descriptions</h3>
 
 <details>
   <summary>Click to view Column descriptions</summary>
@@ -26,7 +26,7 @@ This project explores World Happiness Report data from 2015 to 2024 to understan
 
 </details>
 
-### Project Structure and Development Overview
+<h3 style="color:#C71585;">Project Structure and Development Overview</h3>
 
 This project is organized into **4 Jupyter notebooks**, each addressing a distinct phase of happiness analysis:
 
@@ -60,7 +60,7 @@ This notebook explores why India ranks lower in happiness compared to top countr
 
 Each notebook was developed in its own **feature branch**, enabling modular, focused development and easier collaboration. This approach ensures clear separation of tasks and smooth integration of different analysis components.
 
-### Key Questions Addressed
+<h3 style="color:#C71585;">Key Questions Addressed</h3>
 
 <details>
 <summary>1. How does health (life expectancy) relate to happiness?</summary>
@@ -104,22 +104,22 @@ India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with 
 
 </details>
 
-### Tools Used
+<h3 style="color:#C71585;">Tools Used</h3>
 
 - **Python**, **Pandas**, **NumPy**
 - **Scikit-learn** for preprocessing
 - **Matplotlib**, **Seaborn**, **Plotly** for visualization
 - **Jupyter Notebook** for interactive analysis
 
-### Tableau Dashboard
+<h3 style="color:#C71585;">Tableau Dashboard</h3>
 
 View the interactive dashboard: [Click here](https://public.tableau.com/app/profile/angel.jayakumar/viz/Book2_17521895743850/Whatmakenationshappy)
 
-### Word Cloud Visualization
+<h3 style="color:#C71585;">Word Cloud Visualization</h3>
 
 The word cloud image displayed above was generated using the Python `WordCloud` library. It visually represents countries sized by their happiness rank, where countries with higher happiness appear larger. This visualization helps to quickly identify and compare happiness levels across different countries.
 
-### Data Source and Credits
+<h3 style="color:#C71585;">Data Source and Credits</h3>
 
 This project uses data from two Kaggle datasets:
 
