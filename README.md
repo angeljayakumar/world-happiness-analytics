@@ -157,3 +157,48 @@ This project uses data from two Kaggle datasets:
 - [World Happiness Report 2020–2024](https://www.kaggle.com/datasets/samithsachidanandan/world-happiness-report-2020-2024)
 
 The original data is based on the **Gallup World Poll**, which surveys over 160 countries and includes key well-being indicators such as happiness score, GDP per capita, social support, healthy life expectancy, and more. All 10 CSV files were cleaned and merged to create a unified dataset for analysis covering the years 2015 to 2024.
+
+## Alfie's Happiness Predictor App
+
+### Overview
+
+An interactive app designed for Alfie, a curious 9-year-old who loves maths, Roblox, Minecraft, and LEGO. The app lets users explore how factors like Economy, Family, Health, Freedom, and Generosity affect a country’s happiness score through fun sliders and gamified challenges.
+
+### User Persona
+
+**Alfie – The Creative Builder**
+
+- Age: 9 years old
+- Interests: Maths, Roblox, Minecraft, LEGO,Football
+- Goal: To understand how today’s choices affect happiness now and in the future
+- Motivation: Learning through play and interactive challenges that relate to his favorite games
+
+### Design Thinking
+
+This app is being developed using the Design Thinking process, focusing on Alfie’s needs to create an engaging, educational, and playful experience. Two versions (minimal and rich UI) are tested using A/B testing to find the best user experience.
+
+### Current Development Status
+
+This app is currently being developed with ongoing efforts to:
+
+- Build and refine two app versions (minimal and rich UI) for A/B testing.
+- Collect user feedback to improve engagement and learning.
+- Use a Linear Regression model (R² = 0.58) to provide approximate happiness predictions.
+- Continuously enhance the app based on real user interactions.
+
+### Model and Predictions
+
+- Uses a **Linear Regression model** with an R² score of **0.58 (58%)**, explaining most of the variation in happiness scores.
+- Random Forest was also tested but had a lower R² of **0.53 (53%)**.
+- Predictions are approximate and meant to encourage exploration and learning, not exact forecasts.
+
+### A/B Testing
+
+- Two versions of the app (A and B) randomly assigned to users.
+- Version A: Simple UI with plain results.
+- Version B: Enhanced UI with interactive charts and gamified elements.
+- User feedback is collected to iteratively improve the app.
+
+---
+
+This app combines data science, user-centered design, and educational storytelling to make learning about happiness and maths fun for young users.
