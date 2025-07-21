@@ -116,7 +116,7 @@ India is a happy place in many ways — people often find joy in family, traditi
 <details>
 <summary><span style="font-weight: bold; font-size: 1.2em;">6. How has India’s happiness changed since 2015?</span></summary>
 <span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
-India is a place where many people find joy in family, culture, festivals, and community. However, the overall happiness score — which reflects national-level well-being — declined from 4.5 in 2015 to around 3.5 in 2020, with the sharpest drop during the COVID-19 pandemic. By 2024, it had slightly recovered to about 4.2 but still remains below pre-2018 levels. This downward trend highlights how large-scale socioeconomic challenges, such as inequality, unemployment, and healthcare access, continue to affect the nation’s overall happiness despite its cultural and emotional strengths.
+India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with the sharpest drop during the COVID-19 pandemic. By 2024, it had slightly recovered to about 4.2 but still remains below pre-2018 levels. This downward trend highlights how large-scale socioeconomic challenges, such as inequality, unemployment, and healthcare access, continue to affect the nation’s overall happiness.
 </span>
 </details>
 
