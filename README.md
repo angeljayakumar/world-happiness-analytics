@@ -160,8 +160,6 @@ The original data is based on the **Gallup World Poll**, which surveys over 160 
 
 ## Alfie's Happiness Predictor App
 
-### Overview
-
 An interactive app designed for Alfie, a curious 9-year-old who loves maths, Roblox, Minecraft, and LEGO. The app lets users explore how factors like Economy, Family, Health, Freedom, and Generosity affect a country’s happiness score through fun sliders and gamified challenges.
 
 ### User Persona
@@ -190,7 +188,7 @@ This app is currently being developed with ongoing efforts to:
 
 - Uses a **Linear Regression model** with an R² score of **0.58 (58%)**, explaining most of the variation in happiness scores.
 - Random Forest was also tested but had a lower R² of **0.53 (53%)**.
-- Predictions are approximate and meant to encourage exploration and learning, not exact forecasts.
+- Predictions are approximate and meant to encourage exploration and learning.
 
 ### A/B Testing
 
