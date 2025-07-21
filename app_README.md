@@ -36,7 +36,7 @@ The app uses a linear regression model named **`linear_regression_model.pkl`** t
 
 ### Model Performance and Selection
 
-We trained two models to predict the Happiness Score based on features like Economy, Family, and Health:
+We train two models to predict the Happiness Score based on features like Economy, Family, and Health:
 
 - **Linear Regression Model**
 
