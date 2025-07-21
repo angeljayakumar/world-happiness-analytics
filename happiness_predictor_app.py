@@ -41,8 +41,3 @@ input_list = [input_values[feature] for feature in features]
 if st.button('Predict Happiness Score'):
     prediction = model.predict([input_list])[0]
     st.success(f"Predicted Happiness Score for {selected_country}: {prediction:.2f}")
-
-
-
-
-
