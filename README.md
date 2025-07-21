@@ -79,46 +79,44 @@ This project is developed using feature branches for modular and organized devel
 <h3 style="color:#C71585;">Key Questions Addressed</h3>
 
 <details>
-<summary><strong>1. How does health (life expectancy) relate to happiness?<strong></summary>
-
+<summary><span style="font-weight: bold; font-size: 1.2em;">1. How does health (life expectancy) relate to happiness?</span></summary>
+<span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
 There is a strong positive correlation between healthy life expectancy and happiness scores across countries from 2015 to 2024. Countries with higher life expectancy generally report higher happiness levels. European nations tend to show both high life expectancy and happiness, while many African countries fall into the lower ranges. This suggests that improving health outcomes could be an effective way to increase national well-being.
-
+</span>
 </details>
 
 <details>
-<summary><strong>2. How has happiness changed over time (2015–2024)?<strong></summary>
-
+<summary><span style="font-weight: bold; font-size: 1.2em;">2. How has happiness changed over time (2015–2024)?</span></summary>
+<span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
 Nordic countries like Finland, Denmark, Norway, and Sweden consistently rank among the happiest globally with stable scores. Their resilience reflects strong social systems and quality of life, even during crises such as the COVID-19 pandemic. Conversely, countries like Afghanistan and many Sub-Saharan African nations remain at the lowest happiness levels. India’s happiness scores fluctuate but generally stay in the lower-middle range, indicating ongoing challenges.
-
+</span>
 </details>
 
 <details>
-<summary><strong>3. Which factors most strongly influence happiness?<strong></summary>
-
+<summary><span style="font-weight: bold; font-size: 1.2em;">3. Which factors most strongly influence happiness?</span></summary>
+<span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
 Family and social connections show the strongest positive correlation with happiness at 0.82, highlighting their importance. Economic prosperity (GDP per capita) closely follows with a correlation of 0.81. Healthy life expectancy is also a major contributor with a correlation of 0.79. Perceptions of corruption negatively impact happiness, while generosity has only a weak positive correlation.
-
+</span>
 </details>
 
 <details>
-<summary><strong>4. Do certain factors lead to statistically significant differences in happiness?<strong></summary>
-
+<summary><span style="font-weight: bold; font-size: 1.2em;">4. Do certain factors lead to statistically significant differences in happiness?</span></summary>
+<span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
 Statistical tests reveal that family support and life expectancy affect happiness levels. These factors show clear differences in average happiness scores between groups. Generosity, despite being positively viewed, does not have a significant statistical impact on happiness. This underscores the key role of social and health factors in well-being.
-
+</span>
 </details>
 
 <details>
-<summary><strong>5. If India is a happy place, why does it rank lower than top countries like Finland?</strong></summary>
-
+<summary><span style="font-weight: bold; font-size: 1.2em;">5. If India is a happy place, why does it rank lower than top countries like Finland?</span></summary>
+<span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
 India is a happy place in many ways — people often find joy in family, traditions, festivals, and strong community bonds. However, the World Happiness Report measures happiness using factors like income, healthy life expectancy, social support, and perceived freedom. Compared to top-ranked countries such as Finland and Denmark, India scores lower in these areas. In addition, India’s large population combined with deep economic and social inequality affects access to basic services and opportunities, which lowers the average national well-being score. So while many individuals may feel personally happy, the overall ranking reflects broader structural challenges that need to be addressed.
-
+</span>
 </details>
 
 <details>
-<summary><strong>6. How has India’s happiness changed since 2015?<strong></summary>
-
-India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with the sharpest drop during the COVID-19 pandemic. By 2024, it recovered slightly to about 4.2 but remains below pre-2018 levels. This trend points to lasting effects of socioeconomic challenges that still impact overall happiness.
-
-</details>
+<summary><span style="font-weight: bold; font-size: 1.2em;">6. How has India’s happiness changed since 2015?</span></summary>
+<span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
+India is a place where many people find joy in family, culture, festivals, and community. However, the overall happiness score — which reflects national-level well-being — declined from 4.5 in 2015 to around 3.5 in 2020, with the sharpest drop during the COVID-19 pandemic. By 2024, it had slightly recove
 
 <h3 style="color:#C71585;">Tools Used</h3>
 
