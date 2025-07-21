@@ -6,5 +6,7 @@ plotly==5.22.0        # Interactive visualizations and dashboards
 scikit-learn==1.4.2   # Machine learning algorithms and preprocessing tools
 jupyterlab==4.1.5     # Interactive development environment for notebooks
 notebook==7.1.2       # Jupyter Notebook server and frontend
-wordcloud             # word cloud visualizations
+wordcloud==1.8.2.2    # word cloud visualizations
+streamlit==1.25.0     # Import Streamlit for building the interactive web app interface
+            
 
