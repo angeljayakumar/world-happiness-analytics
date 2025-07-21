@@ -2,7 +2,7 @@
 
 ## Design Thinking Approach
 
-This app was developed following the Design Thinking process to keep Alfie’s needs and experience at the center:
+This app is being developed following the Design Thinking process to keep Alfie’s needs and experience at the center:
 
 - **Empathize:** Understand Alfie’s goal — a curious 9-year-old who loves maths and building things, wanting to explore how different factors affect happiness.
 - **Define:** The app helps Alfie predict happiness scores based on features like Economy, Family, Health, Freedom, and Generosity.
