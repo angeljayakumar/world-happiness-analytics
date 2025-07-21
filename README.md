@@ -130,6 +130,9 @@ India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with 
 - **StandardScaler** for feature scaling
 - **SharpWalk** to guide selection between parametric and non-parametric statistical tests for hypothesis analysis
 - **Joblib** for saving/loading models
+- **Streamlit** for building the interactive web app interface
+- **Design Thinking** framework to guide user-centered app design, especially for a young persona (Alfie)
+- **A/B Testing** to compare minimal and rich UI versions of the app for optimal engagement
 
 <h3 style="color:#C71585;">Analysis Used</h3>
 
@@ -138,8 +141,9 @@ India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with 
 - **Predictive Modeling** using regression and ensemble methods
 - **Model Evaluation** using metrics like R² Score and Mean Squared Error (MSE)
 - **Hypothesis Testing** decision support guided by SharpWalk
+- **User Experience Testing** using A/B testing structure to gather feedback and iterate based on user behavior
 
-This combination of tools and analysis techniques supports thorough understanding and forecasting of country happiness scores using data from 2015 to 2024.
+This combination of tools, analytical methods, and design strategies supports a well-rounded exploration and prediction of happiness scores from 2015 to 2024 while creating a playful, educational experience for young users like Alfie.
 
 <h3 style="color:#C71585;">Tableau Dashboard</h3>
 
@@ -188,7 +192,7 @@ This app is currently being developed with ongoing efforts to:
 
 - Uses a **Linear Regression model** with an R² score of **0.58 (58%)**, explaining most of the variation in happiness scores.
 - Random Forest was also tested but had a lower R² of **0.53 (53%)**.
-- Predictions are approximate and meant to encourage exploration and learning.
+- Predictions are approximate and meant to encourage exploration and learning,not exact forecasts.
 
 ### A/B Testing
 
