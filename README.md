@@ -79,28 +79,28 @@ This project is developed using feature branches for modular and organized devel
 <h3 style="color:#C71585;">Key Questions Addressed</h3>
 
 <details>
-<summary><span style="font-weight: bold; font-size: 1.2em;">1. How does health (life expectancy) relate to happiness?</span></summary>
+<summary><span style="font-weight: bold; font-size: 1.2em;">1. How does health (life expectancy) relate to world happiness?</span></summary>
 <span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
 There is a strong positive correlation between healthy life expectancy and happiness scores across countries from 2015 to 2024. Countries with higher life expectancy generally report higher happiness levels. European nations tend to show both high life expectancy and happiness, while many African countries fall into the lower ranges. This suggests that improving health outcomes could be an effective way to increase national well-being.
 </span>
 </details>
 
 <details>
-<summary><span style="font-weight: bold; font-size: 1.2em;">2. How has happiness changed over time (2015–2024)?</span></summary>
+<summary><span style="font-weight: bold; font-size: 1.2em;">2. How has world happiness changed over time (2015–2024)?</span></summary>
 <span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
 Nordic countries like Finland, Denmark, Norway, and Sweden consistently rank among the happiest globally with stable scores. Their resilience reflects strong social systems and quality of life, even during crises such as the COVID-19 pandemic. Conversely, countries like Afghanistan and many Sub-Saharan African nations remain at the lowest happiness levels. India’s happiness scores fluctuate but generally stay in the lower-middle range, indicating ongoing challenges.
 </span>
 </details>
 
 <details>
-<summary><span style="font-weight: bold; font-size: 1.2em;">3. Which factors most strongly influence happiness?</span></summary>
+<summary><span style="font-weight: bold; font-size: 1.2em;">3. Which factors most strongly influence world happiness?</span></summary>
 <span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
 Family and social connections show the strongest positive correlation with happiness at 0.82, highlighting their importance. Economic prosperity (GDP per capita) closely follows with a correlation of 0.81. Healthy life expectancy is also a major contributor with a correlation of 0.79. Perceptions of corruption negatively impact happiness, while generosity has only a weak positive correlation.
 </span>
 </details>
 
 <details>
-<summary><span style="font-weight: bold; font-size: 1.2em;">4. Do certain factors lead to statistically significant differences in happiness?</span></summary>
+<summary><span style="font-weight: bold; font-size: 1.2em;">4. Do certain factors lead to statistically significant differences in world happiness?</span></summary>
 <span style="font-size: 0.95em; font-family: 'Times New Roman', Times, serif;">
 Statistical tests reveal that family support and life expectancy affect happiness levels. These factors show clear differences in average happiness scores between groups. Generosity, despite being positively viewed, does not have a significant statistical impact on happiness. This underscores the key role of social and health factors in well-being.
 </span>
