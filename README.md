@@ -194,7 +194,7 @@ Brainstormed features such as flag games, happiness score guessing, feedback ani
 
 #### Prototype:
 
-Developed two core mini-games with a simple user interface, including loading real-world data.
+Developed two core mini-games with a simple user interface, giving real-world data.
 
 #### Test:
 
@@ -213,12 +213,14 @@ Guess the Flag Game:
 Players match flags to countries, reinforcing global geography and cultural awareness in an engaging way.
 
 If you'd like to run the app yourself, it can be hosted locally.  
-(Screenshot provided below)
+**Note:** The app has not been deployed yet. Online deployment is planned for the future.
+
+(Screenshots below show how the app looks when run locally)
 
 <p float="left">
-  <img src="data/images/Game _1_screenshot.png" alt="Screenshot 1" width="30%" />
-  <img src="data/images/Game_2_screenshot.png" alt="Screenshot 2" width="30%" />
-  <img src="data/images/Win_screenshot.png" alt="Screenshot 3" width="30%" />
+  <img src="data/images/Game _1_screenshot.png" alt="Guess the Happiness Score" width="30%" />
+  <img src="data/images/Game_2_screenshot.png" alt="Guess the Flag Game" width="30%" />
+  <img src="data/images/Win_screenshot.png" alt="Winning Screen" width="30%" />
 </p>
 
 ## Future Development
