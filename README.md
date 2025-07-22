@@ -4,7 +4,7 @@ This project explores World Happiness Report data from 2015 to 2024 to understan
 
 ![Happiness Word Cloud](data/images/happiness_wordcloud.png)
 
-<h3 style="color:#C71585;">Column Descriptions</h3>
+<h2 style="color:#C71585;">Column Descriptions</h3>
 
 <details>
   <summary>Click to view Column descriptions</summary>
@@ -26,7 +26,7 @@ This project explores World Happiness Report data from 2015 to 2024 to understan
 
 </details>
 
-<h3 style="color:#C71585;">Project Structure and Development Overview</h3>
+<h2 style="color:#C71585;">Project Structure and Development Overview</h3>
 
 This project is organized into **5 Jupyter notebooks**, each addressing a distinct phase of happiness analysis:
 
@@ -65,7 +65,7 @@ This notebook builds a model to predict future happiness scores of countries usi
 
 </details>
 
-### Branches
+## Branches
 
 This project is developed using feature branches for modular and organized development. The main branches are:
 
@@ -76,7 +76,7 @@ This project is developed using feature branches for modular and organized devel
 - `happyblazer-diagnostic-analysis` — Focuses on diagnostic analysis, including case studies like India's happiness trends.
 - `happyblazer-predictive--analysis` — Contains the predictive modeling work, including data preprocessing, lag feature creation, model training, evaluation, and saving the Linear Regression model.
 
-<h3 style="color:#C71585;">Key Questions Addressed</h3>
+<h2 style="color:#C71585;">Key Questions Addressed</h3>
 
 <details>
 <summary><span style="font-weight: bold; font-size: 1.2em;">1. How does health (life expectancy) relate to world happiness?</span></summary>
@@ -120,7 +120,7 @@ India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with 
 </span>
 </details>
 
-<h3 style="color:#C71585;">Tools Used</h3>
+<h2 style="color:#C71585;">Tools Used</h3>
 
 - **Python** for data processing and modeling
 - **Pandas** and **NumPy** for data cleaning, manipulation, and numerical operations
@@ -134,7 +134,7 @@ India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with 
 - **Design Thinking** framework to guide user-centered app design, especially for a young persona (Alfie)
 - **A/B Testing** to compare minimal and rich UI versions of the app for optimal engagement
 
-<h3 style="color:#C71585;">Analysis Used</h3>
+<h2 style="color:#C71585;">Analysis Used</h3>
 
 - **Exploratory Data Analysis (EDA)** with visualizations
 - **Feature Engineering** including lag features to capture temporal trends
@@ -145,15 +145,15 @@ India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with 
 
 This combination of tools, analytical methods, and design strategies supports a well-rounded exploration and prediction of happiness scores from 2015 to 2024 while creating a playful, educational experience for young users like Alfie.
 
-<h3 style="color:#C71585;">Tableau Dashboard</h3>
+<h2 style="color:#C71585;">Tableau Dashboard</h3>
 
 View the interactive dashboard: [Click here](https://public.tableau.com/app/profile/angel.jayakumar/viz/Book2_17521895743850/Whatmakenationshappy)
 
-<h3 style="color:#C71585;">Word Cloud Visualization</h3>
+<h2 style="color:#C71585;">Word Cloud Visualization</h3>
 
 The word cloud image displayed above was generated using the Python `WordCloud` library. It visually represents countries sized by their happiness rank, where countries with higher happiness appear larger. This visualization helps to quickly identify and compare happiness levels across different countries.
 
-<h3 style="color:#C71585;">Data Source and Credits</h3>
+<h2 style="color:#C71585;">Data Source and Credits</h3>
 
 This project uses data from two Kaggle datasets:
 
@@ -162,60 +162,69 @@ This project uses data from two Kaggle datasets:
 
 The original data is based on the **Gallup World Poll**, which surveys over 160 countries and includes key well-being indicators such as happiness score, GDP per capita, social support, healthy life expectancy, and more. All 10 CSV files were cleaned and merged to create a unified dataset for analysis covering the years 2015 to 2024.
 
-## World Cup of Happiness: Fun Game App
+## World Cup of Happiness – Streamlit Game App
 
-Alongside Alfie’s Happiness Predictor, I developed **World Cup of Happiness**, a playful educational app designed for young users to learn about global happiness through games. It features two engaging challenges:
+🧒 User Persona: Alfie – The Creative Builder
+Age: 9 years old
 
-- **Guess the Happiness Score:** Users guess the happiness score of various countries, then reveal the real score based on authentic world data.
-- **Guess the Flag Game:** Users match flags to the correct countries to reinforce geographical and cultural knowledge.
+Interests: Maths, Roblox, Minecraft, LEGO, Football
 
-## Happiness Predictor App(In Progress)
+Goal: To understand how today’s choices affect happiness now and in the future
 
-An interactive app designed for User Persona Alfie, a curious 9-year-old who loves maths, Roblox, Minecraft, and LEGO. The app lets users explore how factors like Economy, Family, Health, Freedom, and Generosity affect a country’s happiness score through fun sliders and gamified challenges.
+Motivation: Learning through play and interactive challenges that connect to his favorite games
 
-### User Persona
+Alfie’s curiosity and creativity shaped the core of this project. The app is tailored to help young learners engage with global data in ways that are playful, interactive, and meaningful.
 
-**Alfie – The Creative Builder**
+### Design Thinking Approach
 
-- Age: 9 years old
-- Interests: Maths, Roblox, Minecraft, LEGO,Football
-- Goal: To understand how today’s choices affect happiness now and in the future
-- Motivation: Learning through play and interactive challenges that relate to his favorite games
+The development of World Cup of Happiness followed the Design Thinking process to ensure it was engaging, educational, and suited for children like Alfie:
 
-### Design Thinking
+#### Empathize:
 
-This app is being developed using the Design Thinking process, focusing on Alfie’s needs to create an engaging, educational, and playful experience. Two versions (minimal and rich UI) are tested using A/B testing to find the best user experience.
+Observed how children learn best—through visuals, play, games, and interactive feedback.
 
-### Current Development Status
+#### Define:
 
-This app is currently being developed with ongoing efforts to:
+"How can we help kids explore what makes people happy in different countries in a way that's fun, visual, and educational?"
 
-- Build and refine two app versions (minimal and rich UI) for A/B testing.
-- Collect user feedback to improve engagement and learning.
-- Use a Linear Regression model (R² = 0.58) to provide approximate happiness predictions.
-- Continuously enhance the app based on real user interactions.
+#### Ideate:
 
-### Model and Predictions
+Brainstormed features such as flag games, happiness score guessing, feedback animations, and playful UX.
 
-- Uses a **Linear Regression model** with an R² score of **0.58 (58%)**, explaining most of the variation in happiness scores.
-- Random Forest was also tested but had a lower R² of **0.53 (53%)**.
-- Predictions are approximate and meant to encourage exploration and learning,not exact forecasts.
+#### Prototype:
 
-### A/B Testing
+Developed two core mini-games with a simple user interface, including loading real-world data.
 
-- Two versions of the app (A and B) randomly assigned to users.
-- Version A: Simple UI with plain results.
-- Version B: Enhanced UI with interactive charts and gamified elements.
-- User feedback is collected to iteratively improve the app.
+#### Test:
 
----
+Informal testing with kids and parents was used to check engagement, usability, and comprehension.
 
-This app combines data science, user-centered design, and educational storytelling to make learning about happiness and maths fun for young users.
+World Cup of Happiness is a fun and educational game app designed for children to explore global happiness data through playful interaction. Originally inspired by Alfie’s curiosity, it serves as the main app in the Happiness & Well-Being project.
 
-## Future Work
+The app helps young users learn about geography, data interpretation, and emotional well-being using real data from the World Happiness Report.
 
-- Complete development and refinement of Alfie’s Happiness Predictor app, including expanding model features and improving UI/UX based on A/B test results and user feedback.
-- Enhance World Cup of Happiness with more game modes, leaderboards, and personalized feedback to increase engagement.
+### Key Features
+
+Guess the Happiness Score:
+Players are shown a country and guess its happiness score. After submitting their guess, the real score is revealed (based on official World Happiness Report data), offering fun insights and learning.
+
+Guess the Flag Game:
+Players match flags to countries, reinforcing global geography and cultural awareness in an engaging way.
+
+If you'd like to run the app yourself, it can be hosted locally.  
+(Screenshot provided below)
+
+<p float="left">
+  <img src="data/images/Game _1_screenshot.png" alt="Screenshot 1" width="30%" />
+  <img src="data/images/Game_2_screenshot.png" alt="Screenshot 2" width="30%" />
+  <img src="data/images/Win_screenshot.png" alt="Screenshot 3" width="30%" />
+</p>
+
+## Future Development
+
+Happiness Predictor App-An interactive Streamlit app that lets users experiment with factors like Economy, Health, Family, Freedom, and Generosity to see how they affect happiness scores—powered by a trained Linear Regression model (R² = 0.58).
+
+A/B Testing-To ensure the best user experience, two UI versions will be developed and tested:Version A (Minimal UI): Clean layout with basic sliders and results and Version B (Rich UI): Interactive charts, emoji feedback, and visual storytelling.User feedback will be collected through informal testing with parents and children to refine engagement and clarity.
 
 ## Data Ethics and Considerations
 
