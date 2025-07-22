@@ -1,7 +1,6 @@
 import streamlit as st
 import random
 
-# Country data with happiness scores and flags
 # Country list with happiness scores from World Happiness Report
 countries_data = {
     "Afghanistan": 2.864,
@@ -275,42 +274,42 @@ flag_emojis = {
 all_countries = list(countries_data.keys())
 
 st.set_page_config(page_title="Happy Kids Flag Games 🎉", page_icon="🌍")
-
 st.title("🌟 Happy Kids Flag Games 🌟")
+
 game_choice = st.radio("Choose a game:", ["🎯 Happy Flag Game", "🎌 Guess the Flag"])
 
 # -------------------------------
-# 🎯 GAME 1: Happy Score Game
+# 🎯 GAME 1: Happy Flag Game
 # -------------------------------
-if game_choice == "🎯 Happy score Game":
+if game_choice == "🎯 Happy Flag Game":
     st.header("🎯 How Happy is this Country?")
     st.write("Move the sliders and guess how happy people are!")
-
+    
     country = st.selectbox("Choose a country:", sorted(countries_data.keys()))
-
+    
     family = st.slider("Family & Friends (How much love and support?)", 0.0, 1.0, 0.5)
     economy = st.slider("Money & Jobs (How good is the economy?)", 0.0, 1.0, 0.5)
     health = st.slider("Health & Life (How healthy do people live?)", 0.0, 1.0, 0.5)
-
+    
     if st.button("🧠 Make a Guess!"):
         predicted = (0.4 * family + 0.35 * economy + 0.25 * health) * 10
         predicted = round(min(max(predicted, 0), 10), 2)
         actual = countries_data[country]
         flag = flag_emojis.get(country, "")
-
+        
         st.markdown(f"## {flag} {country}")
         st.write(f"**Your Happiness Guess:** {predicted} / 10")
         st.write(f"**Real Happiness Score:** {actual} / 10")
-
+        
         diff = abs(predicted - actual)
         if diff < 1:
             st.balloons()
             st.success("🎉 Amazing! You were very close!")
-        elif diff < 3:
+        elif diff < 2:
             st.info("😊 Good guess! You're getting there.")
         else:
             st.warning("🤔 Keep trying! Adjust the sliders to guess better.")
-
+        
         st.write("🔁 Change the country or sliders to guess again!")
 
 # -------------------------------
@@ -319,29 +318,36 @@ if game_choice == "🎯 Happy score Game":
 else:
     st.header("🎌 Guess the Country from the Flag!")
     st.write("Look at the flag and pick the correct country name!")
-
+    
     if "target_country" not in st.session_state:
         st.session_state.target_country = random.choice(all_countries)
-
+    
     if "choices" not in st.session_state:
         wrong = random.sample([c for c in all_countries if c != st.session_state.target_country], 3)
         st.session_state.choices = wrong + [st.session_state.target_country]
         random.shuffle(st.session_state.choices)
-
+    
+    if "answered" not in st.session_state:
+        st.session_state.answered = False
+    
     flag = flag_emojis[st.session_state.target_country]
     st.markdown(f"### What country is this? {flag}")
-    user_guess = st.radio("Pick one:", st.session_state.choices)
-
+    
+    user_guess = st.radio("Pick one:", st.session_state.choices, key="flag_guess")
+    
     if st.button("✅ Guess!"):
+        st.session_state.answered = True
         if user_guess == st.session_state.target_country:
             st.success("🎉 Yay! You got it right!")
             st.balloons()
         else:
             st.error(f"Oops! It's actually **{st.session_state.target_country}**.")
-
+    
+    if st.session_state.answered:
         if st.button("🔄 Play Again"):
             st.session_state.target_country = random.choice(all_countries)
             wrong = random.sample([c for c in all_countries if c != st.session_state.target_country], 3)
             st.session_state.choices = wrong + [st.session_state.target_country]
             random.shuffle(st.session_state.choices)
-            st.experimental_rerun()
+            st.session_state.answered = False
+            st.rerun()
