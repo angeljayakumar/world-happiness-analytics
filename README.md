@@ -162,7 +162,14 @@ This project uses data from two Kaggle datasets:
 
 The original data is based on the **Gallup World Poll**, which surveys over 160 countries and includes key well-being indicators such as happiness score, GDP per capita, social support, healthy life expectancy, and more. All 10 CSV files were cleaned and merged to create a unified dataset for analysis covering the years 2015 to 2024.
 
-## Alfie's Happiness Predictor App
+## World Cup of Happiness: Fun Game App
+
+Alongside Alfie’s Happiness Predictor, I developed **World Cup of Happiness**, a playful educational app designed for young users to learn about global happiness through games. It features two engaging challenges:
+
+- **Guess the Happiness Score:** Users guess the happiness score of various countries, then reveal the real score based on authentic world data.
+- **Guess the Flag Game:** Users match flags to the correct countries to reinforce geographical and cultural knowledge.
+
+## Alfie's Happiness Predictor App(In Progress)
 
 An interactive app designed for Alfie, a curious 9-year-old who loves maths, Roblox, Minecraft, and LEGO. The app lets users explore how factors like Economy, Family, Health, Freedom, and Generosity affect a country’s happiness score through fun sliders and gamified challenges.
 
@@ -204,3 +211,24 @@ This app is currently being developed with ongoing efforts to:
 ---
 
 This app combines data science, user-centered design, and educational storytelling to make learning about happiness and maths fun for young users.
+
+## Future Work
+
+- Complete development and refinement of Alfie’s Happiness Predictor app, including expanding model features and improving UI/UX based on A/B test results and user feedback.
+- Enhance World Cup of Happiness with more game modes, leaderboards, and personalized feedback to increase engagement.
+
+## Data Ethics and Considerations
+
+The data used is publicly available and does not contain any personal or private information.Happiness scores reflect survey responses and may be influenced by cultural differences.
+
+## Project Motivation
+
+I chose this project because I love to travel and have always been curious about how people live and feel in different countries around the world. Understanding what makes people happy in various cultures and regions fascinates me. This project allows me to combine my passion for global exploration with data science to uncover insights about well-being and happiness worldwide.
+
+## Challenges Faced
+
+I had some problems with Python package versions not being compatible on my Mac. This caused errors when running the code. I fixed it by managing package versions carefully using virtual environments.
+
+### Acknowledgements
+
+Huge thanks to the Kaggle community for the awesome data that made this project possible. Also,thanks to ChatGPT and Claude AI for giving me a hand when I got stuck or needed ideas. And thanks to everyone who cheered me on along the way!
