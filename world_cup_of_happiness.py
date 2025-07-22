@@ -273,15 +273,15 @@ flag_emojis = {
 
 all_countries = list(countries_data.keys())
 
-st.set_page_config(page_title="Happy Kids Flag Games 🎉", page_icon="🌍")
-st.title("🌟 Happy Kids Flag Games 🌟")
+st.set_page_config(page_title="Happy Kids Score & Flag Games 🎉", page_icon="🌍")
+st.title("🌟 Happy Kids Score & Flag Games 🌟")
 
-game_choice = st.radio("Choose a game:", ["🎯 Happy Flag Game", "🎌 Guess the Flag"])
+game_choice = st.radio("Choose a game:", ["🎯 Happy Score Game", "🎌 Guess the Flag"])
 
 # -------------------------------
-# 🎯 GAME 1: Happy Flag Game
+# 🎯 GAME 1: Happy Score Game
 # -------------------------------
-if game_choice == "🎯 Happy Flag Game":
+if game_choice == "🎯 Happy Score Game":
     st.header("🎯 How Happy is this Country?")
     st.write("Move the sliders and guess how happy people are!")
     
