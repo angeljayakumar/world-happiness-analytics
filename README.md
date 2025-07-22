@@ -164,13 +164,11 @@ The original data is based on the **Gallup World Poll**, which surveys over 160 
 
 ## World Cup of Happiness – Streamlit Game App
 
-🧒 User Persona: Alfie – The Creative Builder
+### 🧒 User Persona: Alfie – The Creative Builder
+
 Age: 9 years old
-
 Interests: Maths, Roblox, Minecraft, LEGO, Football
-
 Goal: To understand how today’s choices affect happiness now and in the future
-
 Motivation: Learning through play and interactive challenges that connect to his favorite games
 
 Alfie’s curiosity and creativity shaped the core of this project. The app is tailored to help young learners engage with global data in ways that are playful, interactive, and meaningful.
