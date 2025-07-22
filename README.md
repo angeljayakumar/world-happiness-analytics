@@ -169,9 +169,9 @@ Alongside Alfie’s Happiness Predictor, I developed **World Cup of Happiness**,
 - **Guess the Happiness Score:** Users guess the happiness score of various countries, then reveal the real score based on authentic world data.
 - **Guess the Flag Game:** Users match flags to the correct countries to reinforce geographical and cultural knowledge.
 
-## Alfie's Happiness Predictor App(In Progress)
+## Happiness Predictor App(In Progress)
 
-An interactive app designed for Alfie, a curious 9-year-old who loves maths, Roblox, Minecraft, and LEGO. The app lets users explore how factors like Economy, Family, Health, Freedom, and Generosity affect a country’s happiness score through fun sliders and gamified challenges.
+An interactive app designed for User Persona Alfie,, a curious 9-year-old who loves maths, Roblox, Minecraft, and LEGO. The app lets users explore how factors like Economy, Family, Health, Freedom, and Generosity affect a country’s happiness score through fun sliders and gamified challenges.
 
 ### User Persona
 
