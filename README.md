@@ -1,6 +1,6 @@
 <h1 style="color:#C71585;">World Happiness Analytics (2015–2024)</h1>
 
-This project explores World Happiness Report data from 2015 to 2024 to understand how health and family support influence national happiness. It covers data cleaning, visual analysis in Tableau, and statistical testing. A predictive model is also built to explore future trends. The project includes an interactive Streamlit app to make insights more accessible and engaging.
+This project explores World Happiness Report data from 2015 to 2024 to understand how health and family support influence national happiness. It covers data cleaning, visual analysis in Tableau, and statistical testing. A predictive model is also built to explore future trends.The project features an interactive Streamlit app with fun little games based on real happiness score data, making insights more engaging and easy to explore.
 
 ![Happiness Word Cloud](data/images/happiness_wordcloud.png)
 
@@ -171,7 +171,7 @@ Alongside Alfie’s Happiness Predictor, I developed **World Cup of Happiness**,
 
 ## Happiness Predictor App(In Progress)
 
-An interactive app designed for User Persona Alfie,, a curious 9-year-old who loves maths, Roblox, Minecraft, and LEGO. The app lets users explore how factors like Economy, Family, Health, Freedom, and Generosity affect a country’s happiness score through fun sliders and gamified challenges.
+An interactive app designed for User Persona Alfie, a curious 9-year-old who loves maths, Roblox, Minecraft, and LEGO. The app lets users explore how factors like Economy, Family, Health, Freedom, and Generosity affect a country’s happiness score through fun sliders and gamified challenges.
 
 ### User Persona
 
