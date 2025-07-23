@@ -9,20 +9,19 @@ This project explores World Happiness Report data from 2015 to 2024 to understan
 <details>
   <summary>Click to view Column descriptions</summary>
 
-| **Column Name**                 | **Explanation**                                                                |
-| ------------------------------- | ------------------------------------------------------------------------------ |
-| `Country`                       | Name of the country                                                            |
-| `Happiness Rank`                | Country’s position in the global happiness ranking for that year               |
-| `Happiness Score`               | Overall happiness score based on survey data and contributing factors          |
-| `Economy`                       | Contribution of GDP per capita to the happiness score                          |
-| `Family`                        | Level of social support and family connections (based on survey responses)     |
-| `Healthy life expectancy`       | Expected number of years a person can live in good health, starting from birth |
-| `Freedom to make life choices`  | Level of freedom individuals feel in making life decisions                     |
-| `Perceptions of corruption`     | Public perception of corruption in government and business                     |
-| `Generosity`                    | Willingness to donate to others, based on survey data and donations            |
-| `Continent`                     | Continent the country belongs to (added for regional analysis)                 |
-| `Year`                          | Year the data was collected (2015–2024)                                        |
-| `Happiness Rank (Cleaned Data)` | Adjusted rank after cleaning and standardizing the dataset                     |
+| **Column Name**                | **Explanation**                                                                |
+| ------------------------------ | ------------------------------------------------------------------------------ |
+| `Country`                      | Name of the country                                                            |
+| `Happiness Rank`               | Country’s position in the global happiness ranking for that year               |
+| `Happiness Score`              | Overall happiness score based on survey data and contributing factors          |
+| `Economy`                      | Contribution of GDP per capita to the happiness score                          |
+| `Family`                       | Level of social support and family connections (based on survey responses)     |
+| `Healthy life expectancy`      | Expected number of years a person can live in good health, starting from birth |
+| `Freedom to make life choices` | Level of freedom individuals feel in making life decisions                     |
+| `Perceptions of corruption`    | Public perception of corruption in government and business                     |
+| `Generosity`                   | Willingness to donate to others, based on survey data and donations            |
+| `Continent`                    | Continent the country belongs to (added for regional analysis)                 |
+| `Year`                         | Year the data was collected (2015–2024)                                        |
 
 </details>
 
@@ -132,7 +131,6 @@ India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with 
 - **Joblib** for saving/loading models
 - **Streamlit** for building the interactive web app interface
 - **Design Thinking** framework to guide user-centered app design, especially for a young persona (Alfie)
-- **A/B Testing** to compare minimal and rich UI versions of the app for optimal engagement
 
 <h2 style="color:#C71585;">Analysis Used</h3>
 
@@ -141,7 +139,6 @@ India’s happiness score declined from 4.5 in 2015 to around 3.5 in 2020, with 
 - **Predictive Modeling** using regression and ensemble methods
 - **Model Evaluation** using metrics like R² Score and Mean Squared Error (MSE)
 - **Hypothesis Testing** decision support guided by SharpWalk
-- **User Experience Testing** using A/B testing structure to gather feedback and iterate based on user behavior
 
 This combination of tools, analytical methods, and design strategies supports a well-rounded exploration and prediction of happiness scores from 2015 to 2024 while creating a playful, educational experience for young users like Alfie.
 
