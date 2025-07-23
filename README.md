@@ -236,7 +236,7 @@ I chose this project because I love to travel and have always been curious about
 
 ## Challenges Faced
 
-I had some problems with Python package versions not being compatible on my Mac. This caused errors when running the code. I fixed it by managing package versions carefully using virtual environments.
+I had some problems with Python package versions not being compatible on my Mac. This caused errors when running the code. I fixed it by managing package versions carefully using virtual environments.After installing Streamlit, my notebook sometimes crashes on my Mac. It may be due to pyarrow or other package problems.
 
 ### Acknowledgements
 
